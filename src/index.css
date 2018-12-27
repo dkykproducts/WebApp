@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/* NAVBAR BOOTSTRAP 4 START */
+.orange{
+  background: rgba(255, 94, 0, 0.895);
+}
+.orange:hover{
+  background: rgba(255, 94, 0, 1);
+}
+
+#maincontainer{
+  margin-top: 60px;
+}
+
+/* For screen size of hamburger menu appearance */
+@media screen and (max-width: 992px) {
+  .nav-option{
+    padding: 5px;
+  }
+}
