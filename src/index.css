@@ -18,6 +18,7 @@ code {
 .orange{
   background: rgba(255, 94, 0, 0.895);
 }
+
 .orange:hover{
   background: rgba(255, 94, 0, 1);
 }

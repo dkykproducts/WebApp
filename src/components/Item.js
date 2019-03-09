@@ -4,35 +4,12 @@ import sample_pic from './sample_pic.svg';
 class Item extends Component {
   render() {
     return (
-      <div>
-        <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-                <div className="row">
-                    <div className="col-12 col-sm-4">
-                        <img src={sample_pic} alt=""  />
-                    </div>
-                    <div className="col-12 col-sm-8">
-                        <h4>This is heading</h4>
-                        <p>This is some content</p>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-                <h4>This is heading</h4>
-                <p>This is some content</p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-                <h4>This is heading</h4>
-                <p>This is some content</p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-                <h4>This is heading</h4>
-                <p>This is some content</p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-                <h4>This is heading</h4>
-                <p>This is some content</p>
-            </div>
+      <div className="card mr-3">
+        <img src={sample_pic} className="card-img-top" alt="Sample_Pic" height="200" width="200"/>
+        <div className="card-body">
+            <h5 className="card-title">Card Title</h5>
+            <p className="card-text">This is a card para</p>
+            <p className="card-text">time</p>
         </div>
       </div>
     );
