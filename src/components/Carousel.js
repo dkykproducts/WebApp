@@ -7,13 +7,13 @@ const Carousel=()=>{
             <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-interval="5000">
-                        <img src={sample_pic} className="d-block w-100" alt="Sliding Image" height="400"/>
+                        <img src={sample_pic} className="d-block w-100" alt="Slider" height="400"/>
                     </div>
                     <div className="carousel-item" data-interval="2000">
-                        <img src={sample_pic} className="d-block w-100" alt="Sliding Image" height="400"/>
+                        <img src={sample_pic} className="d-block w-100" alt="Slider" height="400"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={sample_pic} className="d-block w-100" alt="Sliding Image" height="400"/>
+                        <img src={sample_pic} className="d-block w-100" alt="Slider" height="400"/>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">

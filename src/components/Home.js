@@ -6,7 +6,7 @@ class Home extends Component {
     render(){
         return(
             <div className="Home">
-                <div class="card-desk">
+                <div className="card-desk">
                     <Carousel/>
                     <br/><br/><br/>
                     <div className="card-group">
