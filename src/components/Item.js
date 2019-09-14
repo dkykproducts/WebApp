@@ -7,9 +7,8 @@ class Item extends Component {
       <div className="card mr-3">
         <img src={sample_pic} className="card-img-top" alt="Sample_Pic" height="200" width="200"/>
         <div className="card-body">
-            <h5 className="card-title">Card Title</h5>
-            <p className="card-text">This is a card para</p>
-            <p className="card-text">time</p>
+            <p className="card-title">{this.props.Name}</p>
+            <h5 className="card-text">{this.props.price}</h5>
         </div>
       </div>
     );
